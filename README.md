@@ -38,6 +38,11 @@ AI-HR-Recruitment-Agent/
 ├── .env                    # API Keys (Not uploaded to GitHub)
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+```
+
+
+## 🏗️ Architecture
+
 graph TD
     subgraph Data_Layer [📂 Data Input]
         RES[📄 PDF Resumes]
@@ -74,4 +79,4 @@ graph TD
     %% Styling
     style Gemini fill:#f9f,stroke:#333,stroke-width:2px
     style User fill:#ff9,stroke:#333,stroke-width:2px
-    style Logic fill:#fff,stroke:#333,stroke-width:2px
+    style Logic fill:#fff,stroke:#333,stroke-width:2pxpx
