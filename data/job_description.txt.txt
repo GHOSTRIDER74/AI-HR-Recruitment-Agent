@@ -1,0 +1,33 @@
+As part of Risk Management and Compliance, you are at the center of keeping JPMorgan Chase strong and resilient. You help the firm grow its business in a responsible way by anticipating new and emerging risks, and using your expert judgement to solve real-world challenges that impact our company, customers and communities. Our culture in Risk Management and Compliance is all about thinking outside the box, challenging the status quo and striving to be best-in-class.
+
+
+
+MRGR is a global team of modeling experts within the firm’s Risk Management and Compliance organization. The team is responsible for conducting independent model validation and model governance activities to help identify, measure, and mitigate Model Risk in the firm. The objective is to ensure that models are fit for purpose, used appropriately within the business context for which have been approved, and that model users are aware of the model limitations and how they could impact business decisions.
+
+
+
+Being part of the MRGR team will put you at the center of the firm’s model validation and governance activities with exposure to a wide variety of model types and cutting edge modeling techniques, while frequently interacting with the best and brightest in the firm. You will expand your knowledge of the different forecasting models used in the firm, their unique limitations, and use that knowledge to help shape business strategy and protect the firm.
+
+
+
+Required Skills, Experience And Qualifications
+
+Master’s degree in a quantitative field such as Math, Physics, Engineering, Statistics, Economics or Finance is required
+
+0 – 2 years of experience in a quantitative or modeling role.
+
+Deep understanding of statistical/econometric models such as linear, logistics and time series models, is required
+
+Proficiency in Python, R, or equivalent
+
+Knowledge in financial market is preferred
+
+Strong communication skills verbally and particularly in writing, with the ability to interface with other functional areas in the firm on model-related issues and write high quality technical reports
+
+Experience with large data sets is preferred
+
+Preferred Skills, Experience And Qualifications
+
+Prior experience in mortgage or CRE risk model development or validation is a plus
+
+Prior experience in financial products/markets and regulatory stress testing (CCAR/ICAAP) is a plus 
