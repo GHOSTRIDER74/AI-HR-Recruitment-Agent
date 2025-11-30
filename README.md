@@ -38,8 +38,6 @@ AI-HR-Recruitment-Agent/
 ├── .env                    # API Keys (Not uploaded to GitHub)
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
-
-## 🏗️ Architecture
 graph TD
     subgraph Data_Layer [📂 Data Input]
         RES[📄 PDF Resumes]
