@@ -43,40 +43,42 @@ AI-HR-Recruitment-Agent/
 
 ## 🏗️ Architecture
 
-graph TD
-    subgraph Data_Layer [📂 Data Input]
+```mermaid
+flowchart TD
+
+    subgraph Data_Layer[📂 Data Input]
         RES[📄 PDF Resumes]
         JD[📝 Job Description]
     end
 
-    subgraph Core_Logic [⚙️ Application Logic]
+    subgraph Core_Logic[⚙️ Application Logic]
         Parser[Python PDF Parser]
         Agent[Recruitment Agent Class]
         Email[Email Generator]
     end
 
-    subgraph External [☁️ External Services]
+    subgraph External[☁️ External Services]
         Gemini[✨ Google Gemini API]
     end
 
-    subgraph HITL [👤 Human-in-the-Loop]
+    subgraph HITL[👤 Human-in-the-Loop]
         User[Recruiter / User]
     end
 
     %% Flow Connections
-    RES & JD -->|Raw File| Parser
-    Parser -->|Extracted Text| Agent
+    RES --> Parser
+    JD --> Parser
+    Parser --> Agent
     Agent <-->|Prompt + Context| Gemini
-    Agent -->|Match Score & Analysis| User
-    
-    User -->|Verify Decision| Logic{Approve?}
-    
-    Logic -- Yes --> Email
-    Logic -- Override --> Email
-    
-    Email -->|Drafted Content| Final[📧 Final Email Output]
+    Agent --> User
+    User --> Decision{Approve Decision?}
+
+    Decision -->|Yes| Email
+    Decision -->|Override| Email
+
+    Email --> Final[📧 Final Email Output]
 
     %% Styling
     style Gemini fill:#f9f,stroke:#333,stroke-width:2px
     style User fill:#ff9,stroke:#333,stroke-width:2px
-    style Logic fill:#fff,stroke:#333,stroke-width:2pxpx
+    style Decision fill:#fff,stroke:#333,stroke-width:2px
